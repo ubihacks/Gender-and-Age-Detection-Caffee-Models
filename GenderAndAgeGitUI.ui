@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1203</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #05142D  ! important ; </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="getPersonImage">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>520</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font-size: 15px;
+text-align: center;
+cursor: pointer;
+ outline: none;
+ color: #000;
+ background-color: #fff;
+ border: none;
+ border-radius: 8px;
+ box-shadow: 0 9px #999;</string>
+    </property>
+    <property name="text">
+     <string>Get Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>591</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font: 8pt &quot;Segoe UI&quot;;
+font-size: 40px;
+text-align: center;
+outline: none;
+ color: #fff;
+border: none;
+ border-radius: 8px;
+ </string>
+    </property>
+    <property name="text">
+     <string>Guess  Person Gender And Age </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>120</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font: 8pt &quot;Segoe UI&quot;;
+font-size: 23px;
+text-align: center;
+outline: none;
+ color: #fff;
+border: none;
+ border-radius: 8px;
+ </string>
+    </property>
+    <property name="text">
+     <string>Result Screen</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="showResult">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>220</y>
+      <width>221</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font: 8pt &quot;Segoe UI&quot;;
+border: 1px solid #fff;
+border-radius: 8px;
+font-size: 23px;
+text-align: centpxer;
+outline: none;
+color: #fff;
+
+ </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="computeImage">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>490</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font-size: 15px;
+text-align: center;
+cursor: pointer;
+ outline: none;
+ color: #000;
+ background-color: #fff;
+ border: none;
+ border-radius: 8px;
+ box-shadow: 0 9px #999;</string>
+    </property>
+    <property name="text">
+     <string>Guess</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outputImage">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>130</y>
+      <width>421</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ddd;
+border-radius: 8px;
+padding: 5px;
+width: 200px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="inputImage">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>421</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ddd;
+border-radius: 8px;
+padding: 5px;
+width: 200px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>50</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font: 8pt &quot;Segoe UI&quot;;
+font-size: 23px;
+text-align: center;
+outline: none;
+ color: #fff;
+border: none;
+ border-radius: 8px;
+ </string>
+    </property>
+    <property name="text">
+     <string>OUTPUT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>60</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 5px;
+font: 8pt &quot;Segoe UI&quot;;
+font-size: 23px;
+text-align: center;
+outline: none;
+ color: #fff;
+border: none;
+ border-radius: 8px;
+ </string>
+    </property>
+    <property name="text">
+     <string>INPUT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1203</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
